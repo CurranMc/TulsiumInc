@@ -42,7 +42,7 @@ p {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: transparent;
+    background-color: #29ADCE;
     position: sticky;
     top: 0;
     display: inline-block;
@@ -54,6 +54,10 @@ li {
     display: inline-block;
     text-align: center;
 } 
+.menuli{
+    margin-top: 1%;
+    float: left;
+}
 .menuli a {
     display: block;
     color: #333;
@@ -118,6 +122,9 @@ li {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+.logo{
+    fill: white;
 }
 svg{
     fill: #333;
@@ -197,6 +204,7 @@ li svg:hover{
     }
     @media only screen and (min-width: 768px) {
     /* For desktop: */
+    .col-0 {width: 2%;}
     .col-1 {width: 8.33%;}
     .col-1_1{width: 10%;}
     .col-1_2{width: 12.5%;}
