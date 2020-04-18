@@ -66,7 +66,7 @@ li {
     text-decoration: none;
 } 
 .menuli a:hover {
-    background-color: #666666;
+    background-color: #1f86a1;
 }
 .hero-image {
     background-image: url("");
@@ -127,7 +127,7 @@ li {
     fill: white;
 }
 svg{
-    fill: #333;
+    fill: #1f86a1;
 }
 li svg:hover{
     background-color: #333;
@@ -136,25 +136,25 @@ li svg:hover{
     fill:white;
 }
 #US-AZ path:hover{
-    fill: #888888;
+    fill: #29ADCE;
 }
 #US-CA path:hover{
-    fill: #888888;
+    fill: #29ADCE;
 }
 #US-ID path:hover{
-    fill: #888888;
+    fill: #29ADCE;
 }
 #US-NV path:hover{
-    fill: #888888;
+    fill: #29ADCE;
 }
 #US-OR path:hover{
-    fill: #888888;
+    fill: #29ADCE;
 }
 #US-UT path:hover{
-    fill: #888888;
+    fill: #29ADCE;
 }
 #US-WA path:hover{
-    fill: #888888;
+    fill: #29ADCE;
 }
 .dot {
     height: 90%;
@@ -175,6 +175,18 @@ li svg:hover{
 #colorboy{
     background-color: turquoise;
 }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: pink;
+  }
+
+td{
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1.5%;
+}
+
 
 
 /* For mobile phones: */
