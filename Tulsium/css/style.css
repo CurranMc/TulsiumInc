@@ -178,7 +178,7 @@ li svg:hover{
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-    background-color: pink;
+    background-color: #ffcff1;
   }
 
 td{
