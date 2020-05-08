@@ -4,7 +4,7 @@ function arizonaInfo(){
 }
 function caliInfo(){
     document.getElementById('stateName').innerHTML = "<p>California</p>";
-    document.getElementById('infoText').innerHTML = "<p>We work in this area, we are based around San Jose. Let us know how we can help in this area</p>";
+    document.getElementById('infoText').innerHTML = "<p>We work in this area, we are based around San Jose. Let us know how we can help in this area!</p>";
 }
 function idahoInfo(){
     document.getElementById('stateName').innerHTML = "<p>Idaho</p>";
