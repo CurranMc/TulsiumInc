@@ -248,6 +248,9 @@ td{
 .aboutUsHome{
     float: left;
 }
+#aboutUsHomeTwo{
+    float: right;
+}
 .photoOne{
     transform: scaleX(-1);
     float: right;
@@ -255,12 +258,13 @@ td{
 }
 .photoTwo{
     float: left;
+    width: 55%;
 }
 .coolText{
     float: right;
     width: 45%;
 }
-.
+
 /* For mobile phones: */
 [class*="col-"] {
     width: 75%;
