@@ -248,9 +248,17 @@ td{
 #aboutUsHome{
     float: left;
 }
+#aboutUsHomeTwo{
+    float: right;
+}
 .photoOne{
     transform: scaleX(-1);
     float: right;
+    width: 55%;
+}
+.photoTwo{
+    transform: scaleX(-1);
+    float: left;
     width: 55%;
 }
 /* For mobile phones: */
