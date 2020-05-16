@@ -245,7 +245,7 @@ td{
 #Spacer{
     margin: 20%;
 }
-#aboutUsHome{
+.aboutUsHome{
     float: left;
 }
 .photoOne{
@@ -253,6 +253,14 @@ td{
     float: right;
     width: 55%;
 }
+.photoTwo{
+    float: left;
+}
+.coolText{
+    float: right;
+    width: 45%;
+}
+.
 /* For mobile phones: */
 [class*="col-"] {
     width: 75%;
