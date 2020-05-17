@@ -217,13 +217,13 @@ li svg:hover{
     text-decoration: none;
 }
 .footerContact a:link{
-    color: black;
+    color: white;
 }
 .footerContact a:visited{
-    color: black;
+    color: white;
 }
 .footerContact a:hover{
-    color: white;
+    color: black;
 }
 .colorBoy{
     background-color: turquoise;
@@ -245,8 +245,11 @@ td{
 #Spacer{
     margin: 20%;
 }
-.aboutUsHome{
+#aboutUsHome{
     float: left;
+}
+#other{
+    float:right;
 }
 #aboutUsHomeTwo{
     float: right;
@@ -254,7 +257,7 @@ td{
 .photoOne{
     transform: scaleX(-1);
     float: right;
-    width: 55%;
+    width: 100%;
 }
 .photoTwo{
     float: left;
