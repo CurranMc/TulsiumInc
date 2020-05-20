@@ -62,7 +62,7 @@ li {
 } 
 .menuli a:hover {
     /* background-color: #1f86a1; */
-    color: black;
+    color: #144f5e;
 }
 .hero-image {
     background-image: url("");
@@ -218,7 +218,7 @@ li svg:hover{
     color: white;
 }
 .footerContact a:hover{
-    color: black;
+    color: #144f5e;
 }
 .colorBoy{
     background-color: turquoise;
