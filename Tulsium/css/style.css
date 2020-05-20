@@ -19,18 +19,12 @@ body{
 div{
     margin-top: 10px;
 }
-h1 {
-    margin: 0px;
-}
 
 h2 {
     font-size: 400%;
 }
 h3 {
 	font-size: 300%;
-}
-h4{
-    margin: 0px;
 }
 p {
 	color: black;
@@ -43,8 +37,9 @@ p {
     padding: 0;
     overflow: hidden;
     background-color: #29ADCE;
-    position: sticky;
+    position: fixed;
     top: 0;
+    right: 0;
     display: inline-block;
     width: 100%;
     z-index: 1111;
@@ -195,8 +190,8 @@ li svg:hover{
     fill: #29ADCE;
 }
 .dot {
-    height: 90%;
-    width: 50%;
+    /* height: 90%; */
+    /* width: 50%; */
     border-radius: 75%;
     display: inline-block;
     border: 3px solid #1f86a1;
@@ -227,6 +222,9 @@ li svg:hover{
 }
 .colorBoy{
     background-color: turquoise;
+}
+footer p{
+    color: white;
 }
 table, th, td {
     border: 1px solid black;
@@ -267,7 +265,85 @@ td{
     float: right;
     width: 45%;
 }
+.bordergone table, td, tr{
+    border: none;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right{
+    display: block;
+    margin-left: auto;
+}
+.left{
+    display: block;
+    margin-right: auto;
+}
+.aboutUpperBox{
+    background-color: #1f86a1;
+    width: 30%;
+    margin-left: 1%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5%;
+}
+.aboutUpperBox svg{
+    width: 25%;
+    fill: white;
+    margin-top: 4%;
+}
+.aboutBox p, h1{
+    margin: 4%;
+    color: white;
+}
+.aboutLowerBox{
+    background-color: #1f86a1;
+    width: 45.5%;
+    margin-left: 1%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5%;
+}
+.aboutLowerBox svg{
+    width: 20%;
+    fill: white;
+    margin-top: 4%;
+}
+.ceoBox{
+    width: 80%;
+    margin: 10%;
+    background-color: #1f86a1;
+    text-align: center;
+    border-radius: 5%;
+    color: white;
 
+}
+/* learned how to do the scrollbar from here and w3schools https://css-tricks.com/the-current-state-of-styling-scrollbars/ */
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+                                       left bottom,
+                                       left top,
+                                       color-stop(0.44, lightblue),
+                                       color-stop(0.72, #29adce),
+                                       color-stop(0.86, #1f86a1));
+}
 /* For mobile phones: */
 [class*="col-"] {
     width: 75%;
